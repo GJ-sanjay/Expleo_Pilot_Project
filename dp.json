@@ -1,0 +1,57 @@
+{
+    "Trainees":[
+      {
+        "id": 12,
+        "first_name": "Prakash",
+        "last_name": "Murugesan",
+        "email": "prakashmurugesan006@gmail.com"
+      },
+      {
+        "id": 13,
+        "first_name": "mohanu",
+        "last_name": "anu",
+        "email": "mohananu.ambati@expleogroup.com"
+      },
+      {
+        "id": 14,
+        "first_name": "amaravathi",
+        "last_name": "ambikavathi",
+        "email": "likith.amba@expleogroup.com"
+      },
+      {
+        "id": 15,
+        "first_name": "jack",
+        "last_name": "rose",
+        "email": "jackirosee@expleogroup.com"
+      },
+      {
+        "id": 16,
+        "first_name": "ram",
+        "last_name": "sita",
+        "email": "sitaramam@expleogroup.com"
+      },
+      {
+        "id": 17,
+        "first_name": "Romieo",
+        "last_name": "juliet",
+        "email": "yasin.shaik@expleogroup.com"
+      },
+      {
+        "id":18,
+        "first_name": "sachin",
+        "last_name": "Tendulkar",
+        "email": "hemnth.eaddal@expleogroup.com"
+      },
+      {
+        "id": 19,
+        "first_name": "anushka",
+        "last_name": "sharma",
+        "email": "hemnth.eaddal@expleogroup.com"
+      },
+      {
+        "id": 20,
+        "first_name": "suresh",
+        "last_name": "raina",
+        "email": "sureshraina@gmail.com"
+      }
+    ]

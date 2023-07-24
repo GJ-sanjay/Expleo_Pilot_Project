@@ -1,0 +1,150 @@
+driver.get("https://www.cyclos.org/")
+//products button
+xpath://a[text()='POS']
+//click on demo
+xpath: //a[text()='Visit Online Demo']
+//click on login
+xpath: //div[text()=' Login '] 
+//send user name in login page
+xpath: //input[@placeholder="User"]
+//send password in login page
+xpath: //password-input[@formcontrolname="password"]
+//click on submit button
+xpath: //span[text()='Submit']
+//switch to banking tab
+xpath: //div[text()='Banking']
+
+//payment to user 
+xpath : //a[contains(text(),'Payment to user')]
+//click on the user book
+xpath: (//button[@type='button'])[2]
+//Select the user 
+LinkText: Active Walking
+//Send the amount
+id: id_34
+
+//Scheduling click on pay now
+xpath: //button[@title='Pay now']//div[1]
+
+//Description send some desc
+TagName: textarea
+//Click On Next Button
+xpath: //span[text()='Next']
+//click on confirm button to finish payment
+xpath: //span[text()='Confirm']
+//check if this xpath comes that is successful payment
+xpath: //div[text()='The payment was successfully processed']
+//If payment reached limit this will appear check if its displayed
+xpath: div[text()='You have exceeded the maximum of payments per day for the demo network']
+//if payment failed click cancel button
+xpath://span[text()='×']
+
+//Click on scheduling option in Scheduling 
+xpath: //a[contains(text(),'Scheduled')]
+
+//send date for schedule types
+xpath: //input[@type='date']
+
+//Click on Monthly Installments In Scheduling
+LinkText: Monthly installments
+
+//Send The number of Installments in numbers
+xpath: //input[contains(@class,'form-control w-100')]
+
+//Click on Recurring payments
+xpath: //a[contains(text(),'Recurring payments')]
+
+
+//2.Click on Payment to System
+xpath: //div[text()='Payment to system']
+//Send the Amount
+xpath: //input[@type='tel']
+//Click on Pay now button 
+xpath: //div[text()='Pay now']
+//Click on Pay now from scheduling
+LinkText: Pay now
+
+//Send some description
+TagName: textarea
+
+//Click on Next button 
+xpath: //span[text()='Next']
+//click on confirm button to finish payment
+xpath: //span[text()='Confirm']
+//check if this xpath comes that is successful payment
+xpath: //div[text()='The payment was successfully processed']
+//If payment reached limit this will appear check if its displayed
+xpath: div[text()='You have exceeded the maximum of payments per day for the demo network']
+//if payment failed click cancel button
+xpath://span[text()='×']
+
+//Click On Scheduling and click pay now from there select Scheduled 
+xpath: //a[contains(text(),'Scheduled')]
+
+//Click On Scheduling and click pay now from there select Monthly Installments
+xpath: //a[contains(text(),'Monthly installments')]
+
+//Send the Number of installments
+xpath: //input[contains(@class,'form-control w-100')]
+
+
+//3.Payment Requests
+//Click on Payment requests button
+xpath: //div[text()='Payment requests']
+
+//Click On send a new Request
+xpath: //div[text()='Send a new request']
+
+//Select The user Book
+xpath: //button[contains(@class,'btn btn-icon')]
+
+//Select The Active Walking contact
+xpath: //a[contains(text(),'Active Walking')]
+
+//Send the Amount to be sent 
+xpath: //input[@placeholder='0,00']
+
+//Send the date in date format 
+xpath: //input[@type='date']
+
+//Click on Pay Now in Scheduling
+xpath: //div[text()='Pay now']
+
+//Click on the pay now from drop down
+xpath: //a[contains(text(),'Pay now')]
+
+//Click on Confirm button
+xpath: //span[text()='Confirm']
+
+//Click on the Confirm prompt 
+xpath:(//span[text()='Confirm'])[2]
+
+//Check if payment was successful
+xpath: //div[text()='The payment request was successfully sent']
+
+//Click payment requests and on send new Request enter user amount send date and click Scheduling select Scheduled from drop down
+xpath: //a[contains(text(),'Scheduled')]
+
+//Click payment requests and on send new Request enter user amount send date and click Scheduling select 
+monthly Installments from drop down
+xpath: //a[contains(text(),'Monthly installments')]
+
+//Send the number of installments
+xpath: //input[@type='number']
+
+//Click on first installment is immediate 
+xpath: //input[@type='checkbox']/following-sibling::label[1]
+
+//Click payment requests and on send new Request enter user amount send date and click Scheduling Recurring payments from drop down
+xpath: //a[contains(text(),'Recurring payments')]
+
+//Click on the radio button first payment when accepting the request
+xpath: //label[text()=' First payment when accepting the request ']
+
+
+
+
+
+
+
+

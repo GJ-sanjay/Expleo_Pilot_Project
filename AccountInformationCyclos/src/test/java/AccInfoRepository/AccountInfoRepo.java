@@ -38,20 +38,42 @@ public class AccountInfoRepo {
 	@FindBy(xpath = "//button[contains(@class,'btn btn-icon ml-2')]")
 	public static WebElement userTOSearch;
 
-	@FindBy(xpath = "//a[contains(text(),'Emma')]")
+	@FindBy(xpath = "(//div[@class='mb-2']//a)[3]")
 	public static WebElement selectContact;
 
 	@FindBy(xpath = "(//div[contains(@class,'w-100 mw-100')])[1]")
 	public static WebElement periodDropDrown;
-
+	
+	@FindBy(xpath = "//div[text()='Payment to user']")
+	public static WebElement paymentTOUser;
+	//button[contains(@class,'btn btn-icon')]
+	
+	@FindBy(xpath = "//button[contains(@class,'btn btn-icon')]")
+	public static WebElement pickFromYourContact;
+	
+	@FindBy(xpath = "//a[contains(text(),'Business One')]")
+	public static WebElement anyoneFromContact;
+	
+	@FindBy(xpath = "//div[@class='input-group']//input[1]")
+	public static WebElement enterAmount;
+	
+	@FindBy(xpath = "//button[@type='button']//span[1]")
+	public static WebElement next1;
+	
+	@FindBy(xpath = "//span[text()='Confirm']")
+	public static WebElement confirm;
+	
+	@FindBy(xpath = "(//button[@type='button']//icon)[2]")
+	public static WebElement exportPayment;
+	
 	// list of elements in dropdown
 	@FindBy(linkText = "Last month")
 	public static WebElement listOfPeriod;
 
-	@FindBy(xpath = "//*[@id=\"id_4\"]")
+	@FindBy(xpath = "//*[@title='No options selected']")
 	public static WebElement filter;
 
-	@FindBy(xpath = "//*[@id=\"dropdown-menu-id_4\"]/div[1]/label")
+	@FindBy(xpath = "(//label[@class='custom-control-label'])[1]")
 	public static WebElement memberPayment;
 
 	@FindBy(xpath = "(//input[contains(@class,'form-control w-100')])[1]")
